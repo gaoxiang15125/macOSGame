@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D52613A9B98CAC6509CEE75 /* Pods_FirstOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D147FFF3545B10495CFED8B /* Pods_FirstOSX.framework */; };
+		8E036916236C2316005746AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E036915236C2316005746AB /* AppDelegate.swift */; };
+		8E036918236C2316005746AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E036917236C2316005746AB /* ViewController.swift */; };
+		8E03691D236C2317005746AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E03691B236C2317005746AB /* Main.storyboard */; };
+		8E15DAC9238BB38500C0B14C /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15DAC7238BB38500C0B14C /* CellInfo.swift */; };
+		8E15DACA238BB38500C0B14C /* MapCreater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15DAC8238BB38500C0B14C /* MapCreater.swift */; };
+		8E15DACC238BB93B00C0B14C /* MapManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15DACB238BB93B00C0B14C /* MapManage.swift */; };
+		8E3437EF239A5DC200B523D8 /* BlindYourDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3437EE239A5DC200B523D8 /* BlindYourDog.swift */; };
+		8EFE665423851468001C5B30 /* RunnerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE665323851468001C5B30 /* RunnerScene.swift */; };
+		8EFE665923851476001C5B30 /* FloorSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE665623851476001C5B30 /* FloorSprite.swift */; };
+		8EFE665A23851476001C5B30 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE665723851476001C5B30 /* Runner.swift */; };
+		8EFE665B23851476001C5B30 /* WallSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE665823851476001C5B30 /* WallSprite.swift */; };
+		8EFE666A238514AD001C5B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE665D238514AD001C5B30 /* Assets.xcassets */; };
+		8EFE666B238514AD001C5B30 /* snapshot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE665E238514AD001C5B30 /* snapshot.mp3 */; };
+		8EFE666C238514AD001C5B30 /* 开始游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6660238514AD001C5B30 /* 开始游戏.png */; };
+		8EFE666D238514AD001C5B30 /* perRun.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6661238514AD001C5B30 /* perRun.atlas */; };
+		8EFE666E238514AD001C5B30 /* sceneView_ground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6662238514AD001C5B30 /* sceneView_ground@2x.png */; };
+		8EFE666F238514AD001C5B30 /* 返回菜单.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6663238514AD001C5B30 /* 返回菜单.png */; };
+		8EFE6670238514AD001C5B30 /* 3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6664238514AD001C5B30 /* 3.caf */; };
+		8EFE6671238514AD001C5B30 /* 标题.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6665238514AD001C5B30 /* 标题.png */; };
+		8EFE6672238514AD001C5B30 /* 退出游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6666238514AD001C5B30 /* 退出游戏.png */; };
+		8EFE6673238514AD001C5B30 /* Default-568h@2x.png 11-39-09-834.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6667238514AD001C5B30 /* Default-568h@2x.png 11-39-09-834.png */; };
+		8EFE6674238514AD001C5B30 /* 重新开始.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6668238514AD001C5B30 /* 重新开始.png */; };
+		8EFE6675238514AD001C5B30 /* 关于游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE6669238514AD001C5B30 /* 关于游戏.png */; };
+		8EFE6677238522DB001C5B30 /* KingAndSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE6676238522DB001C5B30 /* KingAndSlave.swift */; };
+		8EFE667B2385287F001C5B30 /* BattleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE667A2385287F001C5B30 /* BattleCard.swift */; };
+		8EFE667E238531C4001C5B30 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE667D238531C4001C5B30 /* King.swift */; };
+		8EFE668023853576001C5B30 /* Citizen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE667F23853576001C5B30 /* Citizen.swift */; };
+		8EFE668423853A35001C5B30 /* Salve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE668323853A35001C5B30 /* Salve.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05731EB2DA2296AF7534A25B /* Pods-FirstOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstOSX.release.xcconfig"; path = "Target Support Files/Pods-FirstOSX/Pods-FirstOSX.release.xcconfig"; sourceTree = "<group>"; };
+		2D147FFF3545B10495CFED8B /* Pods_FirstOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2D0E101C76128A5408A231 /* Pods-FirstOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstOSX.debug.xcconfig"; path = "Target Support Files/Pods-FirstOSX/Pods-FirstOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		8E036912236C2316005746AB /* FirstOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E036915236C2316005746AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E036917236C2316005746AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E03691C236C2317005746AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E03691E236C2317005746AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E03691F236C2317005746AB /* FirstOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstOSX.entitlements; sourceTree = "<group>"; };
+		8E15DAC7238BB38500C0B14C /* CellInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
+		8E15DAC8238BB38500C0B14C /* MapCreater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCreater.swift; sourceTree = "<group>"; };
+		8E15DACB238BB93B00C0B14C /* MapManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManage.swift; sourceTree = "<group>"; };
+		8E3437EE239A5DC200B523D8 /* BlindYourDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindYourDog.swift; sourceTree = "<group>"; };
+		8EFE665323851468001C5B30 /* RunnerScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerScene.swift; sourceTree = "<group>"; };
+		8EFE665623851476001C5B30 /* FloorSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorSprite.swift; sourceTree = "<group>"; };
+		8EFE665723851476001C5B30 /* Runner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
+		8EFE665823851476001C5B30 /* WallSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallSprite.swift; sourceTree = "<group>"; };
+		8EFE665D238514AD001C5B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = resource/Assets.xcassets; sourceTree = "<group>"; };
+		8EFE665E238514AD001C5B30 /* snapshot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snapshot.mp3; sourceTree = "<group>"; };
+		8EFE6660238514AD001C5B30 /* 开始游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始游戏.png"; sourceTree = "<group>"; };
+		8EFE6661238514AD001C5B30 /* perRun.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = perRun.atlas; sourceTree = "<group>"; };
+		8EFE6662238514AD001C5B30 /* sceneView_ground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sceneView_ground@2x.png"; sourceTree = "<group>"; };
+		8EFE6663238514AD001C5B30 /* 返回菜单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回菜单.png"; sourceTree = "<group>"; };
+		8EFE6664238514AD001C5B30 /* 3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.caf; sourceTree = "<group>"; };
+		8EFE6665238514AD001C5B30 /* 标题.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题.png"; sourceTree = "<group>"; };
+		8EFE6666238514AD001C5B30 /* 退出游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出游戏.png"; sourceTree = "<group>"; };
+		8EFE6667238514AD001C5B30 /* Default-568h@2x.png 11-39-09-834.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png 11-39-09-834.png"; sourceTree = "<group>"; };
+		8EFE6668238514AD001C5B30 /* 重新开始.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重新开始.png"; sourceTree = "<group>"; };
+		8EFE6669238514AD001C5B30 /* 关于游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于游戏.png"; sourceTree = "<group>"; };
+		8EFE6676238522DB001C5B30 /* KingAndSlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingAndSlave.swift; sourceTree = "<group>"; };
+		8EFE667A2385287F001C5B30 /* BattleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleCard.swift; sourceTree = "<group>"; };
+		8EFE667D238531C4001C5B30 /* King.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
+		8EFE667F23853576001C5B30 /* Citizen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citizen.swift; sourceTree = "<group>"; };
+		8EFE668323853A35001C5B30 /* Salve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salve.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E03690F236C2316005746AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52613A9B98CAC6509CEE75 /* Pods_FirstOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75E2A066470A125F68C6EA96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D147FFF3545B10495CFED8B /* Pods_FirstOSX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E036909236C2316005746AB = {
+			isa = PBXGroup;
+			children = (
+				8E036914236C2316005746AB /* FirstOSX */,
+				8E036913236C2316005746AB /* Products */,
+				D1444A8C1EFAF8F6A2DC86DC /* Pods */,
+				75E2A066470A125F68C6EA96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E036913236C2316005746AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E036912236C2316005746AB /* FirstOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E036914236C2316005746AB /* FirstOSX */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AEFBB23A396A9009928D9 /* New Group */,
+				8E15DABB238B73DA00C0B14C /* mine */,
+				8EFE6678238527BD001C5B30 /* theory */,
+				8EFE665223851468001C5B30 /* scene */,
+				8EFE665523851476001C5B30 /* sprite */,
+				8E036915236C2316005746AB /* AppDelegate.swift */,
+				8E3437EE239A5DC200B523D8 /* BlindYourDog.swift */,
+				8E036917236C2316005746AB /* ViewController.swift */,
+				8EFE665D238514AD001C5B30 /* Assets.xcassets */,
+				8E03691B236C2317005746AB /* Main.storyboard */,
+				8E03691E236C2317005746AB /* Info.plist */,
+				8E03691F236C2317005746AB /* FirstOSX.entitlements */,
+				8EFE665C238514AD001C5B30 /* resource */,
+			);
+			path = FirstOSX;
+			sourceTree = "<group>";
+		};
+		8E15DABB238B73DA00C0B14C /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				8E381114238CC71D00C3D2A2 /* viewController */,
+				8E381113238CC6FD00C3D2A2 /* MineView */,
+				8E15DAC6238BB38500C0B14C /* mapManage */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		8E15DAC6238BB38500C0B14C /* mapManage */ = {
+			isa = PBXGroup;
+			children = (
+				8E15DAC7238BB38500C0B14C /* CellInfo.swift */,
+				8E15DAC8238BB38500C0B14C /* MapCreater.swift */,
+				8E15DACB238BB93B00C0B14C /* MapManage.swift */,
+			);
+			path = mapManage;
+			sourceTree = "<group>";
+		};
+		8E381113238CC6FD00C3D2A2 /* MineView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MineView;
+			sourceTree = "<group>";
+		};
+		8E381114238CC71D00C3D2A2 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		8E8AEFBB23A396A9009928D9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8EFE665223851468001C5B30 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE665323851468001C5B30 /* RunnerScene.swift */,
+				8EFE6676238522DB001C5B30 /* KingAndSlave.swift */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		8EFE665523851476001C5B30 /* sprite */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE665623851476001C5B30 /* FloorSprite.swift */,
+				8EFE665723851476001C5B30 /* Runner.swift */,
+				8EFE665823851476001C5B30 /* WallSprite.swift */,
+			);
+			path = sprite;
+			sourceTree = "<group>";
+		};
+		8EFE665C238514AD001C5B30 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE665E238514AD001C5B30 /* snapshot.mp3 */,
+				8EFE665F238514AD001C5B30 /* GameResources */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		8EFE665F238514AD001C5B30 /* GameResources */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE6660238514AD001C5B30 /* 开始游戏.png */,
+				8EFE6661238514AD001C5B30 /* perRun.atlas */,
+				8EFE6662238514AD001C5B30 /* sceneView_ground@2x.png */,
+				8EFE6663238514AD001C5B30 /* 返回菜单.png */,
+				8EFE6664238514AD001C5B30 /* 3.caf */,
+				8EFE6665238514AD001C5B30 /* 标题.png */,
+				8EFE6666238514AD001C5B30 /* 退出游戏.png */,
+				8EFE6667238514AD001C5B30 /* Default-568h@2x.png 11-39-09-834.png */,
+				8EFE6668238514AD001C5B30 /* 重新开始.png */,
+				8EFE6669238514AD001C5B30 /* 关于游戏.png */,
+			);
+			path = GameResources;
+			sourceTree = "<group>";
+		};
+		8EFE6678238527BD001C5B30 /* theory */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE667C238531A0001C5B30 /* entity */,
+				8EFE6679238527DF001C5B30 /* protocol */,
+			);
+			path = theory;
+			sourceTree = "<group>";
+		};
+		8EFE6679238527DF001C5B30 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE667A2385287F001C5B30 /* BattleCard.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		8EFE667C238531A0001C5B30 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE668323853A35001C5B30 /* Salve.swift */,
+				8EFE667D238531C4001C5B30 /* King.swift */,
+				8EFE667F23853576001C5B30 /* Citizen.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		D1444A8C1EFAF8F6A2DC86DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D0E101C76128A5408A231 /* Pods-FirstOSX.debug.xcconfig */,
+				05731EB2DA2296AF7534A25B /* Pods-FirstOSX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E036911236C2316005746AB /* FirstOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E036922236C2317005746AB /* Build configuration list for PBXNativeTarget "FirstOSX" */;
+			buildPhases = (
+				59878A79160B4B2F8F74F6DC /* [CP] Check Pods Manifest.lock */,
+				8E03690E236C2316005746AB /* Sources */,
+				8E03690F236C2316005746AB /* Frameworks */,
+				8E036910236C2316005746AB /* Resources */,
+				0C48E9D4CE00109A53BDDD15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstOSX;
+			productName = FirstOSX;
+			productReference = 8E036912236C2316005746AB /* FirstOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E03690A236C2316005746AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = w11757;
+				TargetAttributes = {
+					8E036911236C2316005746AB = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 8E03690D236C2316005746AB /* Build configuration list for PBXProject "FirstOSX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E036909236C2316005746AB;
+			productRefGroup = 8E036913236C2316005746AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E036911236C2316005746AB /* FirstOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E036910236C2316005746AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFE6671238514AD001C5B30 /* 标题.png in Resources */,
+				8EFE666C238514AD001C5B30 /* 开始游戏.png in Resources */,
+				8EFE666A238514AD001C5B30 /* Assets.xcassets in Resources */,
+				8EFE666B238514AD001C5B30 /* snapshot.mp3 in Resources */,
+				8EFE6675238514AD001C5B30 /* 关于游戏.png in Resources */,
+				8E03691D236C2317005746AB /* Main.storyboard in Resources */,
+				8EFE6673238514AD001C5B30 /* Default-568h@2x.png 11-39-09-834.png in Resources */,
+				8EFE666E238514AD001C5B30 /* sceneView_ground@2x.png in Resources */,
+				8EFE6670238514AD001C5B30 /* 3.caf in Resources */,
+				8EFE666F238514AD001C5B30 /* 返回菜单.png in Resources */,
+				8EFE6674238514AD001C5B30 /* 重新开始.png in Resources */,
+				8EFE666D238514AD001C5B30 /* perRun.atlas in Resources */,
+				8EFE6672238514AD001C5B30 /* 退出游戏.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C48E9D4CE00109A53BDDD15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstOSX/Pods-FirstOSX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstOSX/Pods-FirstOSX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstOSX/Pods-FirstOSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59878A79160B4B2F8F74F6DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirstOSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E03690E236C2316005746AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFE668023853576001C5B30 /* Citizen.swift in Sources */,
+				8EFE665423851468001C5B30 /* RunnerScene.swift in Sources */,
+				8EFE667B2385287F001C5B30 /* BattleCard.swift in Sources */,
+				8EFE667E238531C4001C5B30 /* King.swift in Sources */,
+				8EFE665923851476001C5B30 /* FloorSprite.swift in Sources */,
+				8EFE665B23851476001C5B30 /* WallSprite.swift in Sources */,
+				8E3437EF239A5DC200B523D8 /* BlindYourDog.swift in Sources */,
+				8EFE665A23851476001C5B30 /* Runner.swift in Sources */,
+				8E036918236C2316005746AB /* ViewController.swift in Sources */,
+				8EFE6677238522DB001C5B30 /* KingAndSlave.swift in Sources */,
+				8E15DACA238BB38500C0B14C /* MapCreater.swift in Sources */,
+				8E15DAC9238BB38500C0B14C /* CellInfo.swift in Sources */,
+				8EFE668423853A35001C5B30 /* Salve.swift in Sources */,
+				8E036916236C2316005746AB /* AppDelegate.swift in Sources */,
+				8E15DACC238BB93B00C0B14C /* MapManage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E03691B236C2317005746AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E03691C236C2317005746AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E036920236C2317005746AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E036921236C2317005746AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8E036923236C2317005746AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2D0E101C76128A5408A231 /* Pods-FirstOSX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirstOSX/FirstOSX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8HTH3CF5ZP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FirstOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gaoxiang.FirstOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8E036924236C2317005746AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05731EB2DA2296AF7534A25B /* Pods-FirstOSX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirstOSX/FirstOSX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8HTH3CF5ZP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FirstOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gaoxiang.FirstOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E03690D236C2316005746AB /* Build configuration list for PBXProject "FirstOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E036920236C2317005746AB /* Debug */,
+				8E036921236C2317005746AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E036922236C2317005746AB /* Build configuration list for PBXNativeTarget "FirstOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E036923236C2317005746AB /* Debug */,
+				8E036924236C2317005746AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E03690A236C2316005746AB /* Project object */;
+}
